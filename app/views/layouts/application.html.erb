@@ -1,14 +1,15 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Devschool</title>
+    <title>Devschool: Learn to code and more.</title>
+    <meta name="google-site-verification" content="NT78VAnDnq6wwLN22-LguEgbx6PuviQwEQnZaxH-0sc" />
     <%= csrf_meta_tags %>
 
-    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
-    <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track'=> 'reload' %>
   </head>
 
   <body>
     <%= yield %>
+    <%= javascript_include_tag 'application', 'data-turbolinks-track' => 'reload' %>
   </body>
 </html>
